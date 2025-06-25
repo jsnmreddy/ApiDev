@@ -7,6 +7,7 @@ app.use(express.json()); // Middleware for parsing JSON
 let users = [
     { id: 1, name: 'Cyrus', age:'6', breed: 'Lab', Date_Of_Birth:""  },
     { id: 2, name: 'Xoro', age:'3', breed: 'Pug', Date_Of_Birth:"" },
+     { id: 3, name: 'Lufy', age:'2', breed: 'Huskey', Date_Of_Birth:"" }
    
 ];
 
