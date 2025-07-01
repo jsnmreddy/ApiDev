@@ -10,7 +10,7 @@ const Router = require('./routes/users');
 app.use('routes/users', Router);
 
 
-//Server Details
+//Server Detail
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
